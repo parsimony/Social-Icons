@@ -33,7 +33,6 @@ namespace socialicons\blocks;
  * @php_version_min 5.3
  * @block_category blog
  * @modules_dependencies core:1
- * @displayAdmin 0
  */
 
 class socialicons extends \block {
