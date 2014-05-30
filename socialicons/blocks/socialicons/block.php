@@ -33,9 +33,14 @@ namespace socialicons\blocks;
  * @php_version_min 5.3
  * @block_category blog
  * @modules_dependencies core:1
+ * @displayAdmin 0
  */
 
 class socialicons extends \block {
-
+	
+	public function __construct($id) {
+        parent::__construct($id); 
+        $this->setConfig('menu', array(1 => array('title' => 'Parsimony','url' => 'https://www.facebook.com/pages/Parsimony/121819091239187', 'size' => 50, 'icon' => 'facebook2')));
+    }
 }
 ?>
